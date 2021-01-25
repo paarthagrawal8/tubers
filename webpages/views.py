@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from .models import Slider , Team
-
+from youtubers.models import Youtuber
 
 # Create your views here.
 
@@ -8,9 +8,13 @@ from .models import Slider , Team
 def home(request):
     sliders = Slider.objects.all()
     team = Team.objects.all()
+    featured_youtubers = Youtuber.objects.order_by('-created_date').filter(is_featured=True)
+    youtubers = Youtuber.objects.all()
     data = {
         'sliders' : sliders,
-        'team' : team
+        'team' : team,
+        'featured_youtubers' : featured_youtubers,
+        'youtubers' : youtubers,
     }
     return render(request , "webpages/home.html" , data)
 def about(request):

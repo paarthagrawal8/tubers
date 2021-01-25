@@ -36,8 +36,12 @@ class Youtuber(models.Model):
     camera_type = models.CharField(choices = camera_choices , max_length=200) 
     subs_count = models.CharField(max_length=200) 
     category = models.CharField(choices = category_choices , max_length=200) 
-    is_featured = models.BooleanField(max_length=200) 
+    is_featured = models.BooleanField(default=False) 
     created_date = models.DateTimeField(default = datetime.now , blank=True ) 
+
+    def __str__(self):
+        return self.name
+    
 
     
        
