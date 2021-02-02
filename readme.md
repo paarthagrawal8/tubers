@@ -1,8 +1,8 @@
 Tubers!
-The project front end is made up with HTML , CSS , JAVASCRIPT and backend is supported by Django framework
+The project front end is made up with 'HTML' , 'CSS' , 'JAVASCRIPT' and backend is supported by 'Django framework' 
 
 In this website a youtuber can register themself upload informaton from backend and automatically the profile will be availaible on tubers section 
-Any user can signin and signup using the buttons facebook login is also availaible and User can connect to any tuber profile by simply submitting a form
+any user can signin and signup using the buttons facebook login is also availaible and User can connect to any tuber profile by simply submitting a form
 keyword base search is also provided in case a user wants to search something and filters are also provided
 
 
@@ -18,16 +18,16 @@ keyword base search is also provided in case a user wants to search something an
 # Local Development
 
 1. Create and activate a virtualenv
- ~ pipenv shell
+ ' ~ pipenv shell '
 
 2. Clone this repo
-~ git clone https://github.com/paarthagrawal8/tubers.git
+ ' ~  git clone https://github.com/paarthagrawal8/tubers.git '
 
-3. Create superuser 
-~ ./ manage.py createsuperuser
+3. Create superuser  
+ ' ~  ./ manage.py createsuperuser '
 provide username , email , password and confirm password
 
-4. If everything is alright, you should be able to start the Django development server:
-~ ./manage.py runserver
+4. If everything is alright, you should be able to start the Django development server: 
+ ' ~  ./manage.py runserver '
 
 5. Open your browser and go to http://127.0.0.1:8000, you will be greeted with a home page.
