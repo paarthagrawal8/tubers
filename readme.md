@@ -7,7 +7,7 @@ keyword base search is also provided in case a user wants to search something an
 
 
 # ScreenShots
-![Screenshot 2021-02-02 at 2 23 30 PM](https://user-images.githubusercontent.com/68472314/106584462-38dfda80-656c-11eb-8fac-cfc249fd17d2.png)
+![alt text ](https://user-images.githubusercontent.com/68472314/106584462-38dfda80-656c-11eb-8fac-cfc249fd17d2.png)
 
 ![Screenshot 2021-02-02 at 3 36 23 PM](https://user-images.githubusercontent.com/68472314/106584650-72b0e100-656c-11eb-9fc4-a17a2f6b8b88.png)
 
